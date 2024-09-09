@@ -1,0 +1,13 @@
+1. Create a virtual environment
+    - virtualenv -p python3 testenv1
+2. Activate the virtual environment
+    - source testenv1/bin/activate 
+3. Install ipykernel
+    - pip install ipykernel
+4. Create a new kernel
+    - python -m ipykernel install --user --name=lab0
+5. Launch jupyter
+    - jupyter notebook
+6. Connect to server in vscode
+7. Select jupyter kernel
+8. Install libraries in virtual environment with pip
